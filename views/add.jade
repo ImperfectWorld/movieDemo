@@ -1,0 +1,42 @@
+extends ./layout
+block content
+    .container
+        .row
+            form.form-horizontal(method="post",action="/admin/movie/new")
+                input(type="hidden",name="movie[id]",value="#{id}")
+                .form-group
+                    label.col-sm-2.control-label(for="#input-flash") 电影地址
+                    .col-sm-10
+                        input#input-flash.form-control(type="text",name="movie[flash]",value="#{flash}")
+                .form-group
+                    label.col-sm-2.control-label(for="#input-poster") 电影海报
+                    .col-sm-10    
+                        input#input-poster.form-control(type="text",name="movie[poster]",value="#{poster}")
+                .form-group
+                    label.col-sm-2.control-label(for="#select-type") 电影类型
+                    .col-sm-10    
+                        select#select-type.form-control(name="movie[type]")
+                            each type in types
+                                option #{type}
+                .form-group
+                    label.col-sm-2.control-label(for="#input-title") 电影名字
+                    .col-sm-10    
+                        input#inputTitle.form-control(type="text",name="movie[title]",value="#{title}")
+                .form-group
+                    label.col-sm-2.control-label(for="#input-doctor") 电影导演
+                    .col-sm-10
+                        input#input-doctor.form-control(type="text",name="movie[doctor]",value="#{doctor}")
+                .form-group
+                    label.col-sm-2.control-label(for="#input-country") 电影国家
+                    .col-sm-10   
+                        input#input-conuntry.form-control(type="text",name="movie[country]",value="#{country}")
+                .form-group
+                    label.col-sm-2.control-label(for="#input-language") 电影语言
+                    .col-sm-10
+                        input#input-language.form-control(type="text",name="movie[language]",value="#{language}")
+                .form-group
+                    label.col-sm-2.control-label(for="#input-brief") 电影简介
+                    .col-sm-10
+                        input#input-brief.form-control(type="text",name="movie[brief]",value="#{brief}")
+                .form-group
+                    input(class="btn btn-default",type="submit",value="提交")

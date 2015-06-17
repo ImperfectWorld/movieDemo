@@ -1,0 +1,29 @@
+extends ./layout
+block content
+    script(src="/javascripts/list.js")
+    .container
+        .row
+            table.table.table-bordered.table-hover
+                thead
+                    tr
+                        th 电影名字
+                        th 导演
+                        th 国家
+                        th 语言
+                        th 简介
+                        th 时间
+                            th 查看
+                            th 修改
+                            th 删除
+                tbody
+                    each item in items
+                        tr
+                            td #{item.title}
+                            td #{item.doctor}
+                            td #{item.country}
+                            td #{item.language}
+                            td #{item.brief}
+                            td #{item.meta.createAt}
+                            td: a(target="_bank", href="../movie/#{item._id}") 查看
+                            td: a(target="_bank", href="../admin/updatemovie/#{item._id}") 修改
+                            td: a#del(target="_bank", href="###" data-movie="#{item._id}") 删除

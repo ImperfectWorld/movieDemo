@@ -1,0 +1,39 @@
+extends ./layout
+block content
+    script(src="/javascripts/submit-comment.js")
+    script(src="/javascripts/underscore.js")
+    p
+        .container
+            .row
+                .col-md-7
+                    embed(src="#{movie.flash}", allowfullscreen="true",width="700", height="400")
+                .col-md-5
+                    .dl.dl-horizontal
+                        dt 电影名字
+                        dd=movie.title
+
+                        dt 导演
+                        dd=movie.doctor
+
+                        dt 国家
+                        dd=movie.country
+
+                        dt 语言
+                        dd=movie.language
+
+                        dt 简介
+                        dd=movie.brief
+            .row
+                .panel.panel-default.mg10
+                    .panel-heading 评论列表
+                    ul.panel-body#panel-comments
+            .row
+                form#comment
+                    .col-xs-6
+                        input#discuss_user(type="hidden")
+                        input#movie-id(type="hidden",value=movie._id)
+                        textarea.col-xs-12(name="submit-content")
+                    .clearfix
+                    p.col-xs-6
+                        button.mg10.btn.btn-primary.pull-right(type="submit") 提交
+            .row
