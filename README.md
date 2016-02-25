@@ -109,16 +109,16 @@ Step4：配置入口文件app.js
 
 Step5：配置路由引用入口文件routes/index.js
 
-链接：http://www.w3cfuns.com/blog-5430219-5406571.html
+链接：http://www.w3cfuns.com/notes/16795/54a953e9adbd7d3cf66deb05db071f99
 
 Step6：安装配置mongoDB/mongoose
 
-链接：http://www.w3cfuns.com/blog-5430219-5406579.html
+链接：http://www.w3cfuns.com/notes/16795/aaa7b40a738f73b8d82e0f9fb6317067
 
 Stap7：利用Bootstrap编写jade模版（以index.jade为例）
 
-链接：http://www.w3cfuns.com/blog-5430219-5406581.html
+链接：http://www.w3cfuns.com/notes/16795/a3910fdf146a430bee8d08a8e8c19824
 
 Step8：配置路由控制器movie-controller.js
 
-链接：http://www.w3cfuns.com/blog-5430219-5406575.html
+链接：http://www.w3cfuns.com/notes/16795/7db0f145c354b5ef2598cb9d4b80dc38
