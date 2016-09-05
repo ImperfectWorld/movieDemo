@@ -1,0 +1,59 @@
+[33mcommit e2fb2c21c73955d58c410bc7a04d56a1fc044712[m
+Author: ImperfectWorld <wanmei_lee@sina.cn>
+Date:   Mon Sep 5 21:51:35 2016 +0800
+
+    window新增日记
+    
+    新增一条记录
+
+[33mcommit 33180a4a12f8b1c1e9ebd1c2a699b2a079550567[m
+Author: ImperfectWorld <wanmei_lee@sina.cn>
+Date:   Thu Feb 25 18:01:28 2016 +0800
+
+    Update URL
+    
+    更新文档中对应的连接
+
+[33mcommit 31187dfd099d3bb39ea75b752f677130e9af1ae2[m
+Author: ImperfectWorld <wanmei_lee@sina.cn>
+Date:   Wed Jun 17 22:14:11 2015 +0800
+
+    delete
+    
+    工程目录调整
+
+[33mcommit f4d2f3e97d75c19e6e32b7d4c075136ee0f4b724[m
+Author: ImperfectWorld <wanmei_lee@sina.cn>
+Date:   Wed Jun 17 22:36:30 2015 +0800
+
+    Update README.md
+
+[33mcommit 75f4056563a89d029f2ace77072c4a5848f80a22[m
+Author: ImperfectWorld <wanmei_lee@sina.cn>
+Date:   Wed Jun 17 22:28:58 2015 +0800
+
+    工程项目简介
+    
+    本项目是利用Node.js + express + mongoDB/Mongoose + Bootstrap进行快速建站实践。对应工程文件中的每个文件下面都有介绍，希望能帮助刚开始学习Node.js的同学们。
+
+[33mcommit e5aea35390ac4c0eccf794d81fe7ae19182db275[m
+Author: ImperfectWorld <wanmei_lee@sina.cn>
+Date:   Wed Jun 17 17:23:48 2015 +0800
+
+    delete
+    
+    删除node_module默认文件。安装express时会自动生成。
+
+[33mcommit ce1f463e758b9b0455f878df6ca4ba079e3ba487[m
+Author: ImperfectWorld <wanmei_lee@sina.cn>
+Date:   Wed Jun 17 17:04:43 2015 +0800
+
+    movieDemo
+    
+    1.0
+
+[33mcommit 87b5c532ef50bc9c4df33757ebd9a73fb977a397[m
+Author: ImperfectWorld <wanmei_lee@sina.cn>
+Date:   Wed Jun 17 16:56:36 2015 +0800
+
+    Initial commit
