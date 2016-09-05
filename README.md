@@ -1,5 +1,7 @@
-# movieDemo
+﻿# movieDemo
 Node.js + express + mongoDB/Mongoose + Bootstrap
+
+<2016/9/5新增>
 
 请求过程概述：
     1.项目app启动命令npm start  执行package.json文件中"start": "node ./bin/www"命令
