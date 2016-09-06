@@ -3,6 +3,7 @@ Node.js + express + mongoDB/Mongoose + Bootstrap
 
 <2016/9/5新增>
 修改了一个bug
+删除了这个bug
 
 
 请求过程概述：
